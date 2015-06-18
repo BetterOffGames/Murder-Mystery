@@ -1,23 +1,13 @@
 //this handles each users html page
 
+// var playerName;
+// var roomName;
+// var gameRole;
 
-//var userName
-//var roomName
-//var host = false;
-//var gameRole = "innocent";
+//Connect to the main server, enter name, roomname and password then
 
-//display a page to the users not in the round
-    //if(host === true) {
-    //game options form
-        //murderers per round
-        //maximum players in lobby
-        //emit.toRoom.(startRound)
-    //};
+//emit("addUser") and send (name roomname and password) to server when the player submits the html form
 
-    //chat
-        //messages
-        //input/submit fields
+//emit("chatMessage") to roomServer when the player submits a message form
 
-    //if the room is in a round
-    //display
-//socket.on(endRound)
+//emit("playerIsOut") ("name") to room server when the player clicks the I'm Out button
